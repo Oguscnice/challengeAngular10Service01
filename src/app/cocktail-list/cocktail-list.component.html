@@ -1,11 +1,11 @@
 <h1>List de nos cocktails</h1>
 <div class="cocktailListDiv">
-  <div class="myList" *ngFor="let items of cocktails.cocktailsList">
-    <div>Le {{ items.cocktailName }}</div>
-    <div>est à {{ items.cocktailPrice }} €</div>
+  <div class="myList" *ngFor="let items of cocktails">
+    <div>Le {{ items.name }}</div>
+    <div>est à {{ items.price }} €</div>
     <img
-      [src]="items.cocktailImage"
-      alt="photo du cocktail {{ items.cocktailName }}"
+      [src]="items.img"
+      alt="photo du cocktail {{ items.name }}"
     />
   </div>
 </div>
