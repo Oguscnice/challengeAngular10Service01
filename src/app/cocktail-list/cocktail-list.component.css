@@ -1,0 +1,18 @@
+.cocktailListDiv{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+  justify-content: space-between;
+}
+
+.myList{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  /* border-color: black; */
+  border : solid 1px black;
+}
+
+img{
+  width: 30%;
+}
