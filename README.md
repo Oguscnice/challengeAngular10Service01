@@ -1,1 +1,1 @@
-![picture](assets/mobile.png)
+![picture](./src/assets/mobile.png)
